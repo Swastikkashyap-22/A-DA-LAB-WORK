@@ -1,29 +1,5 @@
 // Linear Search
 
-// #include<iostream>
-// using namespace std;
-
-// void LSearch(int a[], int n, int element, int i) {
-//     if (i == n) {
-//         cout << "Element not found!" << endl;
-//         return;
-//     }
-//     else if (a[i] == element) {
-//         cout << "Element found!" << endl;
-//         cout << "Index at which number is present: " << i + 1 << endl;
-//         return;
-//     }
-//     else
-//         LSearch(a, n, element, i + 1);
-// }
-
-// int main() {
-//     int arr[5] = {4, 1, 5, 2, 3};
-//     LSearch(arr, 5, 5, 0);
-//     return 0;
-// }
-
-
 #include <iostream>
 #include <random>
 #include <chrono>
@@ -77,7 +53,7 @@ int main() {
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<milliseconds>(stop - start);
 
-    cout << duration.count() << endl;
+    cout << duration.count() << "ms" <<endl;
 
     delete[] arr;
     return 0;
