@@ -30,7 +30,6 @@ int main() {
     mt19937 gen(rd() + steady_clock::now().time_since_epoch().count());
 
     int n = 1000;
-
     int* arr = new int[n];
 
     uniform_int_distribution<> valueDist(1, 10000);
