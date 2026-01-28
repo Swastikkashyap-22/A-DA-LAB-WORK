@@ -2,6 +2,7 @@
 
 #include<iostream>
 using namespace std;
+
 // WITHOUT RECURSION
 int Power(int x, int n){
     int m = n; int z = x; int Pow = 1;

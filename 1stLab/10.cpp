@@ -1,9 +1,8 @@
 // Linear Search
 
-#include <iostream>
-#include <random>
-#include <chrono>
-
+#include<iostream>
+#include<random>
+#include<chrono>
 using namespace std;
 using namespace std::chrono;
 
@@ -30,7 +29,7 @@ void print(int A[], int n){
 
 int main() {
     random_device rd;
-    mt19937 gen(rd());
+    mt19937 gen(rd() + steady_clock::now().time_since_epoch().count());
 
     uniform_int_distribution<> sizeDist(1, 100);
     int n = sizeDist(gen);
@@ -53,7 +52,7 @@ int main() {
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<milliseconds>(stop - start);
 
-    cout << duration.count() << "ms" <<endl;
+    cout << "Time taken: " << duration.count() << " milliseconds" <<endl;
 
     delete[] arr;
     return 0;
