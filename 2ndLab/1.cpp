@@ -49,5 +49,7 @@ int main(){
     cout << endl;
     cout << "Time taken: " << duration.count() << " microseconds";
 
+    delete[] arr;
+    
     return 0;
 }
