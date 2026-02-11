@@ -46,5 +46,7 @@ int main() {
     auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
     cout << "Time taken: " << duration.count() << " microseconds" << endl;
 
+    delete[] arr;
+    
     return 0;
 }

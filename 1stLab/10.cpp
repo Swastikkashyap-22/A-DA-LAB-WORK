@@ -55,5 +55,6 @@ int main() {
     cout << "Time taken: " << duration.count() << " milliseconds" <<endl;
 
     delete[] arr;
+    
     return 0;
 }
