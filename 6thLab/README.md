@@ -1,4 +1,4 @@
-# 6th Lab - C++ Algorithms Repository
+# 6th Lab
 
 ---
 
