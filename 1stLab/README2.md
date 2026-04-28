@@ -1,8 +1,8 @@
-# 📘 1st Lab - C++ Algorithms Repository
+# 1st Lab - C++ Algorithms Repository
 
 ---
 
-## 🔹 1.cpp: Power of a Number
+## 1.cpp: Power of a Number
 
 ### Aim
 
@@ -41,11 +41,11 @@ function Power(x, n):
 
 ### Time Complexity
 
-( O(\log n) )
+( O(log n) )
 
 ---
 
-## 🔹 2.cpp: Tower of Hanoi
+## 2.cpp: Tower of Hanoi
 
 ### Aim
 
@@ -83,7 +83,7 @@ function TOH(n, F, U, T):
 
 ---
 
-## 🔹 3.cpp: Number of Bounces of a Ball
+## 3.cpp: Number of Bounces of a Ball
 
 ### Aim
 
@@ -116,7 +116,7 @@ function Tips(v, n):
 
 ---
 
-## 🔹 4.cpp: Permutation Generator
+## 4.cpp: Permutation Generator
 
 ### Aim
 
@@ -156,7 +156,7 @@ function P(input, first, last):
 
 ---
 
-## 🔹 5.cpp: Horner's Law
+## 5.cpp: Horner's Law
 
 ### Aim
 
@@ -192,7 +192,7 @@ function solveHorner(arr, idx, m, x):
 
 ---
 
-## 🔹 6.cpp: Earliest Duplicate
+## 6.cpp: Earliest Duplicate
 
 ### Aim
 
@@ -228,7 +228,7 @@ function earliestDuplicate(arr, size):
 
 ---
 
-## 🔹 7.cpp: Missing Consecutive Number
+## 7.cpp: Missing Consecutive Number
 
 ### Aim
 
@@ -266,7 +266,7 @@ function findMissing(lowerLimit, upperLimit, consec, size):
 
 ---
 
-## 🔹 8.cpp: Selection Sort (Recursive)
+## 8.cpp: Selection Sort (Recursive)
 
 ### Aim
 
@@ -305,7 +305,7 @@ function selSort(A, n, i):
 
 ---
 
-## 🔹 9.cpp: Bubble Sort (Recursive)
+## 9.cpp: Bubble Sort (Recursive)
 
 ### Aim
 
@@ -340,7 +340,7 @@ function bubSort(A, n):
 
 ---
 
-## 🔹 10.cpp: Linear Search (Recursive)
+## 10.cpp: Linear Search (Recursive)
 
 ### Aim
 
