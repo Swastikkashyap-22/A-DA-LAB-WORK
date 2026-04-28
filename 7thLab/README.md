@@ -28,7 +28,7 @@ To determine the stage number of each vertex in a multistage graph using a bread
 
 ### Algorithm
 
-```id="stage_algo"
+```
 function findStages(cost, n):
     initialize vertex_stage array to -1
     push source vertex into queue
