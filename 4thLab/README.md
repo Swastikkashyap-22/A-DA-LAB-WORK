@@ -47,13 +47,13 @@ function quickSort(arr, n):
 
 ### Time Complexity
 
-* Best Case: ( O(n \log n) )
-* Average Case: ( O(n \log n) )
+* Best Case: ( O(nlog n) )
+* Average Case: ( O(nlog n) )
 * Worst Case: ( O(n^2) )
 
 ---
 
-## 2.cpp: Binary Sort (Ternary Search)
+## 2.cpp: Binary Search
 
 ### Aim
 
@@ -102,8 +102,8 @@ function binSearch(arr, n, target):
 ### Time Complexity
 
 * Best Case: ( O(1) )
-* Average Case: ( O(\log n) )
-* Worst Case: ( O(\log n) )
+* Average Case: ( O(log n) )
+* Worst Case: ( O(log n) )
 
 ---
 
@@ -146,5 +146,3 @@ function permute(str, left, right):
 ( O(n * n!) )
 
 ---
-
-* Execution time measured using `<chrono>`.
