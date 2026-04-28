@@ -26,7 +26,7 @@ To implement the Quick Sort algorithm using partitioning.
 
 ### Algorithm
 
-```id="quick_algo"
+```
 function quickSort(arr, start, end):
     if start >= end:
         return
@@ -51,8 +51,8 @@ function partition(arr, start, end):
 
 ### Time Complexity
 
-* Best Case: ( O(n \log n) )
-* Average Case: ( O(n \log n) )
+* Best Case: ( O(nlog n) )
+* Average Case: ( O(nlog n) )
 * Worst Case: ( O(n^2) )
 
 ---
@@ -83,7 +83,7 @@ To implement the Merge Sort algorithm using an iterative (bottom-up) approach.
 
 ### Algorithm
 
-```id="merge_algo"
+```
 function mergeSort(arr, n):
     create temp array of size n
     for size from 1 while size < n:
@@ -114,8 +114,8 @@ function merge(arr, left, mid, right, temp):
 
 ### Time Complexity
 
-* Best Case: ( O(n \log n) )
-* Average Case: ( O(n \log n) )
-* Worst Case: ( O(n \log n) )
+* Best Case: ( O(nlog n) )
+* Average Case: ( O(nlog n) )
+* Worst Case: ( O(nlog n) )
 
 ---
