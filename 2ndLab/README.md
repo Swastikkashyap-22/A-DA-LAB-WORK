@@ -25,7 +25,7 @@ To implement the Insertion Sort algorithm to sort an array.
 
 ### Algorithm
 
-```id="ins_algo"
+```
 function insertionSort(arr, n):
     for i from 1 to n - 1:
         curr = arr[i]
@@ -84,7 +84,7 @@ function binSearch(arr, target, start, end):
 ### Time Complexity
 
 * Best Case: ( O(1) )
-* Average Case: ( O(\log n) )
-* Worst Case: ( O(\log n) )
+* Average Case: ( O(log n) )
+* Worst Case: ( O(log n) )
 
 ---
