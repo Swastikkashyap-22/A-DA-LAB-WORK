@@ -88,3 +88,7 @@ function binSearch(arr, target, start, end):
 * Worst Case: ( O(log n) )
 
 ---
+
+<img width="975" height="234" alt="image" src="https://github.com/user-attachments/assets/6b584792-ffed-40a5-a4a9-ef8cb0239bfd" />
+
+---
