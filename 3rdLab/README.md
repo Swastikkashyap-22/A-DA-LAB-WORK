@@ -119,3 +119,7 @@ function merge(arr, left, mid, right, temp):
 * Worst Case: ( O(nlog n) )
 
 ---
+
+<img width="975" height="214" alt="image" src="https://github.com/user-attachments/assets/ac2a9d00-3bda-41ea-930b-edda164e9760" />
+
+---
