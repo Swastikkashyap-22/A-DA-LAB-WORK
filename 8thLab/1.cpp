@@ -1,4 +1,3 @@
-// Matrix Chain Multiplication
 #include <iostream>
 #include <climits>
 using namespace std;
@@ -6,12 +5,8 @@ using namespace std;
 int matrixChainMultiplication(int dimMatrix[], int n) {
     int len = n - 1;
 
-    int** memo = new int*[len];
-    int** s = new int*[len];
-    for (int i = 0; i < len; i++) {
-        memo[i] = new int[len];
-        s[i] = new int[len];
-    }
+    int memo[20][20];
+    int s[20][20];
 
     for (int i = 0; i < len; i++) {
         memo[i][i] = 0;
@@ -34,36 +29,16 @@ int matrixChainMultiplication(int dimMatrix[], int n) {
         }
     }
 
-    int result = memo[0][len - 1];
-
-    for (int i = 0; i < len; i++) {
-        delete[] memo[i];
-        delete[] s[i];
-    }
-    delete[] memo;
-    delete[] s;
-
-    return result;
-}
-
-int* input(int &n) {
-    cout << "Enter number of dimensions: ";
-    cin >> n;
-
-    int* arr = new int[n];
-    for (int i = 0; i < n; i++) {
-        cout << "Enter dimension " << (i + 1) << ": ";
-        cin >> arr[i];
-    }
-    return arr;
+    return memo[0][len - 1];
 }
 
 int main() {
-    int dimMatrix[] = {5, 4, 6, 2, 7};
+    int dimMatrix[] = {6, 3, 7, 2, 5, 4};
     int n = sizeof(dimMatrix) / sizeof(dimMatrix[0]);
 
     int result = matrixChainMultiplication(dimMatrix, n);
-    cout << result << endl;
+
+    cout << "Minimum multiplication cost: " << result << endl;
 
     return 0;
 }
