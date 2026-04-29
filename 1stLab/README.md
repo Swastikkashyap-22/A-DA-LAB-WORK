@@ -377,3 +377,5 @@ function LSearch(a, n, element, i):
 ( O(n) )
 
 ---
+
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f5c6117d-b0cd-4064-9db6-98569d31c0c6" />
