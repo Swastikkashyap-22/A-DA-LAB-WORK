@@ -380,6 +380,10 @@ function LSearch(a, n, element, i):
 
 ---
 
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/fdb8969d-8df2-427f-8474-4075c593178e" />
+
+---
+
 ---
 
 # 2nd Lab 
@@ -470,6 +474,10 @@ function binSearch(arr, target, start, end):
 * Best Case: ( O(1) )
 * Average Case: ( O(log n) )
 * Worst Case: ( O(log n) )
+
+---
+
+<img width="975" height="234" alt="image" src="https://github.com/user-attachments/assets/f6686202-e148-48b2-a1e5-ac2b8b6362da" />
 
 ---
 
@@ -594,6 +602,10 @@ function merge(arr, left, mid, right, temp):
 * Best Case: ( O(nlog n) )
 * Average Case: ( O(nlog n) )
 * Worst Case: ( O(nlog n) )
+
+---
+
+<img width="975" height="214" alt="image" src="https://github.com/user-attachments/assets/65396d50-0317-456b-b550-d2fe5ca31b29" />
 
 ---
 
