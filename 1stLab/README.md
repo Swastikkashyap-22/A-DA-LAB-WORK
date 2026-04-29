@@ -1,4 +1,4 @@
-# 1st Lab - C++ Algorithms Repository
+# 1st Lab
 
 ---
 
